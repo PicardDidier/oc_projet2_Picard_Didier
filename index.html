@@ -32,7 +32,8 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="main">
+            <!-- --------------------INFO-GROUP-------------- -->
             <section class="info-group">
                 <div class="headline">
                     <h1 class="title-headline">Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -44,7 +45,8 @@
                         <i class="fa-solid fa-location-dot gps"></i>
                     </div>
                     <input type="text" class="input-search" placeholder="Marseille, France">
-                    <button type="submit" class="search-button">Rechercher</button>
+                    <button type="submit" class="search-button"><span class="text-search"> Rechercher</span>
+                        <span class="icon-search"><i class="fa-solid fa-magnifying-glass loupe"></i></span></button>
 
                 </form>
 
@@ -53,31 +55,36 @@
                     <div class="title-filtre "> Filtres </div>
                     <div class="box-filtre ">
                         <div class="filtre-portable">
-                        <div class="filtre-icon-text">
-                            <i class="fa-solid fa-money-bill-wave icon-filtre"></i>
-                            <div>Economique</div>
+                            <div class="filtre-icon-text">
+                                <i class="fa-solid fa-money-bill-wave icon-filtre"></i>
+                                <div>Economique</div>
+                            </div>
+                            <div class="filtre-icon-text icon-familial">
+                                <i class="fa-solid fa-child icon-filtre "></i>
+                                <div>Familial</div>
+                            </div>
                         </div>
-                        <div class="filtre-icon-text icon-familial">
-                            <i class="fa-solid fa-child icon-filtre "></i>
-                            <div>Familial</div>
-                        </div>
-                     </div>
-                    <div class="filtre-portable">
-                        <div class="filtre-icon-text ">
-                            <i class="fa-solid fa-heart icon-filtre "></i>
-                            <div>Romantique</div>
-                        </div>
-                        <div class="filtre-icon-text ">
-                            <i class="fa-sharp fa-solid fa-fire icon-filtre"></i>
-                            <div>Nos pépites</div>
+                        <div class="filtre-portable">
+                            <div class="filtre-icon-text ">
+                                <i class="fa-solid fa-heart icon-filtre "></i>
+                                <div>Romantique</div>
+                            </div>
+                            <div class="filtre-icon-text ">
+                                <i class="fa-sharp fa-solid fa-fire icon-filtre"></i>
+                                <div>Nos pépites</div>
+                            </div>
                         </div>
                     </div>
-                    </div>
-                </form>
-                <div class="info-bar">
 
-                    <div class="logo-infos"><i class="fa-solid fa-circle-info picto-info"></div></i><p>Plus de 500 logements sont disponibles dans
-                        cette ville</p>
+
+                </form>
+                <div class="info-bar x">
+
+
+                        <div class="logo-infos"><i class="fa-solid fa-circle-info picto-info"></div></i>
+                        <p class="text-infos">Plus de 500 logements sont disponibles dans
+                            cette ville</p>
+                    
                 </div>
                 <!-- ------------------------HEBERGEMENT--------------------- -->
             </section>
@@ -86,7 +93,7 @@
                     <h2 class="title-hebergements" id="hebergements">Hébergements à Marseille</h2>
                     <div class="hebergements-card">
                         <article class="card-hebergement item">
-                            <div>
+
                             <div class="box-card"><a href="#"><img class="image-hebergement"
                                         src="images/hebergements/fred-kleber.jpg" alt=""></a></div>
                             <div class="card-content">
@@ -142,7 +149,7 @@
                                 </div>
 
                             </div>
-                            
+
                         </article>
                         <article class="card-hebergement item">
                             <div class="box-card"><a href="#"><img class="image-hebergement"
@@ -205,17 +212,17 @@
                         </article>
 
                     </div>
-                    <div class="afficher"><a href=""> Afficher plus</a></div>
+                    <div class="afficher"><a class="afficher-plus" href=""> Afficher plus</a></div>
                 </section>
                 <!-- -------------------------------------------POPULAIRE------------------------------------------------------ -->
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
-                        <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                        <i class="fa-solid fa-chart-line icon-populaire" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
                         <article class="card card-populaire">
-                            
+
                             <img src="./images/hebergements/emile-guillemot.jpg"
                                 alt="Image de la chambre d'hôtel montrant un lit">
                             <div class="card-content">
@@ -268,7 +275,7 @@
                                     <span class="sr-only">Note de 4 sur 5</span>
                                 </div>
                             </div>
-                            
+
                         </article>
                     </div>
                 </section>
