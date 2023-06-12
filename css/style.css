@@ -112,6 +112,7 @@ header {
 }
 
 .menu {
+    
     height: 35px;
     display: flex;
     align-items: flex-end;
@@ -147,6 +148,7 @@ header {
 
 .headline {
     height: 53px;
+    padding-left: 20px;
     
 }
 
@@ -183,8 +185,6 @@ header {
     border-radius: 15px 0px 0px 15px;
     box-sizing: border-box;
     background-color: #F2F2F2;
-    
-
 }
 
 .gps {
@@ -282,6 +282,7 @@ header {
     width: 100%;
     margin-top: 35px;
     display: flex;
+    padding-left: 20px;
 
 
 }
@@ -627,7 +628,7 @@ footer {
         width: 100%;
         margin-top: 50px;
     }
-.card {
+    .card {
     width: 90%;
     margin-right: 20px;
 }
@@ -688,6 +689,7 @@ footer {
         flex-direction: column;
         height: 115px;
         margin-left: 0px;
+        
     }
 
     .title-image {
@@ -698,7 +700,7 @@ footer {
         align-items: center;
     }
     .title {
-        width: 10%;
+        
         height: 19px;
         margin-top: 0px;
     }
@@ -745,7 +747,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 20px;
+        /* modif */
+        /* margin-left: 20px; */
     
     }
     .headline {
@@ -818,7 +821,7 @@ footer {
     /* INFORMATION */
     
       .logos-text-infos {
-        width: 335px;
+        /* width: 335px; */
         display: flex;
     }
     .picto-info {
@@ -856,7 +859,6 @@ footer {
         padding: 0px;
         box-sizing: border-box;
     }
-
 
         /*******HERBERGEMENT****** */
         .hebergements {
@@ -943,7 +945,7 @@ footer {
     height: 569px;
     padding: 0px 0px 0px 0px;
     margin-top: 0px;
-    margin-left: 20px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -954,6 +956,7 @@ footer {
      margin-left: 20px;
      margin-top: 35px;
     justify-content: center;
+    
     
 }
 
@@ -974,6 +977,7 @@ footer {
 .populaires-cards {
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
     
 }
 .populaires-cards .card {
@@ -994,7 +998,7 @@ footer {
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
-    padding-left: 0px;
+    padding-left: 20px;
 
 }
 
@@ -1027,7 +1031,7 @@ footer {
     height: 40%;
     margin-left: auto;
     margin-right: auto;
-     margin-top: 15px;
+    margin-top: 15px;
    
 }
 .box-activite {
@@ -1062,6 +1066,7 @@ footer {
     align-items: center;
     gap: 50px;
     margin-left: 30px;
+    
     
 }
 
