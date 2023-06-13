@@ -148,7 +148,7 @@ header {
 
 .headline {
     height: 53px;
-    padding-left: 20px;
+    
     
 }
 
@@ -199,7 +199,7 @@ header {
     font-weight: 700;
     font-size: 18px;
     border: 1px solid #F2F2F2;
-    margin-right: 0px;
+    
 }
 
 ::placeholder {
@@ -239,6 +239,7 @@ header {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    
     margin-right: 15px;
 }
 
@@ -282,7 +283,7 @@ header {
     width: 100%;
     margin-top: 35px;
     display: flex;
-    padding-left: 20px;
+    
 
 
 }
@@ -372,10 +373,14 @@ header {
 }
 
 .hebergements-card .card-content {
-    width: 100%;
+    
     display: flex;
     margin-left: 15px;
 
+
+}
+.card-txt {
+    width: 100%;
 }
 
 .hebergements-card .card-title {
@@ -386,16 +391,21 @@ header {
     margin-bottom: 0px;
     font-style: normal;
     font-weight: 700;
-    overflow-y: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
 }
 
 .hebergements-card .card-subtitle {
     
-    height: 16px;
+    height: auto;
     margin-top: 8px;
     margin-bottom: 0px;
     font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .hebergements-card .card-rating {
@@ -585,6 +595,7 @@ footer {
 @media (max-width: 1024px) {
     header {
         margin-left: 0px;
+        
 
     }
 /*****************Tableau-infos */
@@ -747,8 +758,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* modif */
-        /* margin-left: 20px; */
+        
     
     }
     .headline {
@@ -758,11 +768,9 @@ footer {
         flex-direction: column;
         align-items: center;
         
+        
     }
-     .title-headline {   
-         /* width: 335px;  */
-  /* ----dois je laisser 335px ???? */
-     } 
+     
     .info-bar {
         justify-content: center;
         height: 38px;
@@ -908,11 +916,10 @@ footer {
             width: 100%;
             display: flex;
             justify-content: center;
-           
 
         }
         .title-hebergements {
-            width: 335px;
+            width: 80%;
             padding-top: 0px;
             margin-left: 20px;
             margin-bottom: 15px;
@@ -921,7 +928,7 @@ footer {
         .card-hebergement {
             
             width: 88.5%;
-            max-width: 335px;
+            max-width: 80%;
             margin-left: auto;
             margin-right: auto;
            
@@ -930,14 +937,12 @@ footer {
             margin-top: 15px;
             width: 100%;
             margin-left: 20px;
+            
          }
-        .afficher-plus {
-           display: flex;
-           justify-content: center;
-           
-        }
+        
         .mobile-afficher {
             width: 335px;
+            margin-left: 8%;
         }
 
 /************POPULAIRE-Mobile*************/
@@ -957,11 +962,10 @@ footer {
      margin-top: 35px;
     justify-content: center;
     
-    
 }
 
 .title-section-populaire {
-    width: 333px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -973,6 +977,7 @@ footer {
 }
 .card-title {
     width: 58%;
+    
 }
 .populaires-cards {
     flex-direction: column;
@@ -981,14 +986,9 @@ footer {
     
 }
 .populaires-cards .card {
-    width: 88.5%;
-    max-width: 335px;
-    
+    width: 100%;
     margin-top: 15px;
 }
-
-
-
 
 /* **************ACTIVITE-mobile ********/
 .activite {
@@ -1011,23 +1011,23 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 .title-activite {
    
-    width: 335px;
+    width: 88%;
     margin-bottom: 15px;
     display: flex;
-
     margin-left: 20px;
     padding-left: 0px;
     
-
+    
 }
 
 
 .card-activite {
     width: 88.5%;
-    max-width: 315px;
+    max-width: 85%;
     height: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -1057,16 +1057,14 @@ footer {
     width: 100%;
     height: 20%;
     margin-top: 35px;
-    
 
 }
+
 .footer {
 
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    margin-left: 30px;
-    
     
 }
 
@@ -1083,31 +1081,25 @@ footer {
     
 }
 .propos {
-    width: 100%;
+    width: 88%;
     height: 100%;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    
 }
 .nosHebergement {
-    width: 100%;
+    width: 88%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    
 
 }
 .assistance {
-    width: 100%;
+    width: 88%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-
 }
 
 } 
